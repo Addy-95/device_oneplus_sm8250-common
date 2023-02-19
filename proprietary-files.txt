@@ -934,6 +934,7 @@ vendor/lib64/libswvdec.so
 odm/lib64/libosensehalclient.so
 odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
 
+<<<<<<< HEAD
 # Peripheral manager
 vendor/bin/pm-proxy
 vendor/bin/pm-service
@@ -965,6 +966,16 @@ vendor/lib64/libqti-perfd.so
 vendor/lib64/libqti-util.so
 
 # Power-off alarm
+=======
+# Perf - from OOS 13 qssi-user-13-TP1A.220905.001-1670556311503-release-keys--IN
+system/framework/QPerformance.jar
+system/framework/QXPerformance.jar
+system/framework/UxPerformance.jar
+system_ext/lib/libqti_performance.so
+system_ext/lib64/libqti_performance.so
+
+# Power-off alarm (product)
+>>>>>>> 44d83d5 (kebab: Import QTI Performance blobs for CLO boostframework)
 product/app/PowerOffAlarm/PowerOffAlarm.apk|eda6abb2108245e143eafc66b42c9da2e37d416b
 system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
