@@ -136,8 +136,8 @@ TARGET_KERNEL_CONFIG := vendor/kona-perf_defconfig
 
 # Clang
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-r487747b
-TARGET_KERNEL_CLANG_VERSION := r487747b
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-r487747c
+TARGET_KERNEL_CLANG_VERSION := r487747c
 TARGET_KERNEL_ADDITIONAL_FLAGS := LD=ld.lld LLVM=1 LLVM_IAS=1
 KERNEL_SUPPORTS_LLVM_TOOLS := true
 KERNEL_LD := LD=ld.lld
